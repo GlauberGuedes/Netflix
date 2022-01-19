@@ -1,0 +1,35 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+
+  > form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    > label {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      color: #fff;
+
+      .login-error {
+        color: red;
+      }
+    }
+
+    > button {
+      margin-top: 20px;
+      border-radius: 8px;
+      border: unset;
+      outline: none;
+      padding: 8px 4px;
+      box-shadow: 0 0 12px 0 #fff;
+      cursor: pointer;
+    }
+  }
+}
